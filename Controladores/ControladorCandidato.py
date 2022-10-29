@@ -2,7 +2,7 @@ from Modelos.Candidato import Candidato
 from Modelos.Partido import Partido
 from Repositorios.RepositorioCandidato import RepositorioCandidato
 from Repositorios.RepositorioPartido import RepositorioPartido
-class ControladorCandidato():
+class ControladorCandidato:
     def __init__(self):
         print("Creando ControladorCandidato")
         self.repositorioCandidato = RepositorioCandidato()

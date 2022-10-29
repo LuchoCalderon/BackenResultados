@@ -14,7 +14,7 @@ class ControladorResultado:
 
     def index(self):
         print("Listar todos los Resultados")
-        return self.repositorioResultados.findAll()
+        return self.repositorioResultado.findAll()
 
     """
     Asignacion mesa y candidato a resultado
